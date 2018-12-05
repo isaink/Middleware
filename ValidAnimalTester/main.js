@@ -15,7 +15,7 @@ let response = {
 };
 
 const isAnimal = (req, res, next) => {  //checking if the query have the same animalroute on my objAnimal...
-  // req.message = "hey!"
+  // req.message = "
   animalsKey.forEach(el => { //trying to check equality...
     // console.log(el)
     if(req.params.animal === el){
