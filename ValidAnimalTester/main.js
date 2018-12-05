@@ -19,7 +19,7 @@ const isAnimal = (req, res, next) => {  //checking if the query have the same an
   req.plannedRes = {
     status: "failure",
     message: false
-  }
+  };
 
   animalsKey.forEach(el => { //trying to check equality...
     // console.log(el)
