@@ -36,5 +36,5 @@ app.get("/animal/:animal", isAnimal, (req, res) => { //query the url and convert
 });
 
 app.listen(1000, () => {
-  console.log("listening to port 1000");
+  console.log("listening to ValidAnimalTester, port 1000");
 });

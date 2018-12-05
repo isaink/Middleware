@@ -27,5 +27,5 @@ app.get("/random", generateSpread, (req, res) => { //Create a route that accepts
 });
 
 app.listen(2000, () => {
-  console.log("listening to port Picker-Random-Number");
+  console.log("listening to Picker-Random-Number, port 2000");
 });
